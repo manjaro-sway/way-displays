@@ -1,7 +1,7 @@
 pkgbase = way-displays
 	pkgdesc = way-displays: Auto Manage Your Wayland Displays
-	pkgver = 1.8.1
-	pkgrel = 1
+	pkgver = 1.9.0
+	pkgrel = 2
 	url = https://github.com/alex-courtis/way-displays
 	install = way-displays.install
 	arch = x86_64
@@ -13,7 +13,7 @@ pkgbase = way-displays
 	depends = wlroots
 	depends = libinput
 	depends = yaml-cpp
-	source = https://github.com/alex-courtis/way-displays/archive/refs/tags/1.8.1.tar.gz
-	sha256sums = 529d074e55f8d15abcf6fd934abe080509509d5578aa8d4fd303f5b882970047
+	source = https://github.com/alex-courtis/way-displays/archive/refs/tags/1.9.0.tar.gz
+	sha256sums = 65f6c110a3de8835bec0e71e963f3b9bd3078e18ee3c42167ae33b2005b97675
 
 pkgname = way-displays
