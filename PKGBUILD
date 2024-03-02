@@ -1,9 +1,9 @@
 # Maintainer: Alexander Courtis <alex@courtis.org>
 pkgname=way-displays
 pkgver=1.10.2
-pkgrel=1
+pkgrel=2
 pkgdesc="way-displays: Auto Manage Your Wayland Displays"
-arch=('x86_64')
+arch=('x86_64' 'aarch64')
 url="https://github.com/alex-courtis/way-displays"
 license=('MIT')
 depends=('wayland' 'wlroots' 'libinput' 'yaml-cpp')
