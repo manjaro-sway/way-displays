@@ -1,7 +1,7 @@
 pkgbase = way-displays
 	pkgdesc = way-displays: Auto Manage Your Wayland Displays
 	pkgver = 1.14.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/alex-courtis/way-displays
 	install = way-displays.install
 	arch = x86_64
@@ -10,7 +10,7 @@ pkgbase = way-displays
 	makedepends = make
 	makedepends = gcc
 	depends = wayland
-	depends = wlroots
+	depends = wlroots0.18
 	depends = libinput
 	depends = yaml-cpp
 	source = https://github.com/alex-courtis/way-displays/archive/refs/tags/1.14.0.tar.gz
