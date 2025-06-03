@@ -1,7 +1,7 @@
 # Maintainer: Alexander Courtis <alex@courtis.org>
 pkgname=way-displays
 pkgver=1.14.0
-pkgrel=2
+pkgrel=3
 pkgdesc="way-displays: Auto Manage Your Wayland Displays"
 arch=('x86_64' 'aarch64')
 url="https://github.com/alex-courtis/way-displays"
@@ -14,7 +14,7 @@ install=way-displays.install
 
 build() {
 	cd "$pkgname-$pkgver"
-	make CC=gcc CXX=g++ way-displays
+	make CC=gcc CXX=g++ OFLAGS="-O3 -fno-lto" way-displays
 }
 
 package() {
